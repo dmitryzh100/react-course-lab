@@ -16,7 +16,7 @@ interface CourseCardProps {
   description?: string;
   creationDate?: string;
   duration?: number;
-  authors?: (string | Author)[];
+  authors?: string[];
   authorsList?: Author[];
   authorList?: Author[];
   allAuthors?: Author[];
