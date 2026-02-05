@@ -1,3 +1,4 @@
+import Button from '../../common/Button/Button';
 import CourseCard from './components/CourseCard/CourseCard';
 import SearchBar from './components/SearchBar/SearchBar';
 
@@ -18,6 +19,7 @@ const Courses = (props: CoursesProps): JSX.Element => {
     <section className="courses">
       <search className="courses__toolbar">
         <SearchBar />
+        <Button buttonText="Add new course" />
       </search>
 
       <ul className="courses__list">
