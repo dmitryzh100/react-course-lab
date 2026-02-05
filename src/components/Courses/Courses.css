@@ -1,0 +1,19 @@
+.courses {
+  padding: 70px 24px 24px;
+}
+
+.courses__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.courses__list {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

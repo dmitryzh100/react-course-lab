@@ -1,0 +1,23 @@
+.button {
+  padding: 13px 36px;
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-md);
+  text-transform: var(--text-transform-uppercase);
+  letter-spacing: 0;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: color-mix(in srgb, var(--color-primary-blue) 80%, black);
+}
+
+.button:active {
+  background-color: color-mix(in srgb, var(--color-primary-blue) 60%, black);
+}
