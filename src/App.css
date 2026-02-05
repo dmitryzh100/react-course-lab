@@ -1,0 +1,123 @@
+:root {
+  /* Colors */
+  --color-primary-blue: #007298;
+  --color-primary-white: #fff;
+  --color-primary-black: #000;
+  --color-primary-efx-dark: #333e48;
+  --color-background: #f7f7f7;
+  --color-basic-borders: #cfcfcf;
+  --color-card-border: rgba(0, 0, 0, 0.12);
+  --color-card-shadow: rgba(0, 0, 0, 0.12);
+  --color-card-stripe: #333e48;
+
+  /* Typography - Font Family */
+  --font-family: 'Open Sans', sans-serif;
+
+  /* Typography - Font Sizes */
+  --font-size-base: 16px;
+  --font-size-md: 20px;
+  --font-size-lg: 32px;
+
+  /* Typography - Line Heights */
+  --line-height-sm: 20px;
+  --line-height-md: 24px;
+  --line-height-lg: 32px;
+  --line-height-xl: 40px;
+
+  /* Typography - Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Typography - Text Transforms */
+  --text-transform-uppercase: uppercase;
+  --text-transform-capitalize: capitalize;
+
+  /* Border Radius */
+  --border-radius-sm: 4px;
+
+  /* Borders */
+  --border-card: 1px solid var(--color-card-border);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+/* Text Style Utilities */
+.text-button {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-md);
+  letter-spacing: 0;
+  text-transform: var(--text-transform-uppercase);
+}
+
+.text-heading {
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-lg);
+  letter-spacing: 0;
+  text-transform: var(--text-transform-capitalize);
+}
+
+.text-page-heading {
+  font-family: var(--font-family);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-xl);
+  letter-spacing: 0;
+  text-transform: var(--text-transform-capitalize);
+}
+
+.text-body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-sm);
+  letter-spacing: 0;
+}
+
+.text-label {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-sm);
+  letter-spacing: 0;
+}
+
+.text-value {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-sm);
+  letter-spacing: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+.app__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}

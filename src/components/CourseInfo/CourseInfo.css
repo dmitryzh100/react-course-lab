@@ -1,0 +1,65 @@
+.course-info {
+  padding: 54px 24px 24px;
+}
+
+.course-info__title {
+  margin: 0 0 23px 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-xl);
+  text-transform: var(--text-transform-capitalize);
+  letter-spacing: 0;
+  color: var(--color-primary-black);
+}
+
+.course-info__card {
+  display: flex;
+  padding: 53px 64px 77px;
+  background-color: var(--color-primary-white);
+  border: var(--border-card);
+  border-radius: var(--border-radius-sm);
+}
+
+.course-info__description {
+  flex: 1;
+  padding-right: 32px;
+  border-right: 1px solid var(--color-basic-borders);
+}
+
+.course-info__description h2 {
+  margin: 0 0 25px 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-sm);
+  color: var(--color-primary-black);
+}
+
+.course-info__description p {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-sm);
+  color: var(--color-primary-black);
+}
+
+.course-info__details {
+  padding-left: 32px;
+  padding-top: 45px;
+}
+
+.course-info__details .details-list {
+  gap: 16px;
+}
+
+.course-info__details .details-list__label {
+  min-width: 80px;
+}
+
+.course-info__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}

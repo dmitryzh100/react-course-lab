@@ -1,0 +1,29 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-container label {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-sm);
+  color: var(--color-primary-black);
+}
+
+.input-container input {
+  padding: 10px 12px;
+  border: 1px solid var(--color-basic-borders);
+  border-radius: var(--border-radius-sm);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-sm);
+  transition: border-color 0.2s ease;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: var(--color-primary-blue);
+}
